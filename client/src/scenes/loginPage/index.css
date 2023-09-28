@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&family=Roboto:wght@400;700;900&display=swap');
+
+.loginPage{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    gap: 4vw;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.leftBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .leftBox img {
+    max-height: 94vh;
+    border-radius: 20px;
+  }
+
+  .rightBox {
+    width: 100%;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+  }
+  .dropZone{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
